@@ -1,0 +1,151 @@
+:root {
+    --color6: #CCCCCC;
+    --color9: #C94D3F;
+    --color11: #666666;
+    --header-top-bg: #020202;
+    --green: #78A962;
+}
+
+.contain-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F7FF;
+    height: 70px;
+}
+
+.contain-img {
+    padding-right: 25px;
+
+}
+
+.contain-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120.5%;
+    display: flex;
+    align-items: center;
+    color: #272560;
+}
+
+.img-card {
+    display: grid;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    align-self: center;
+}
+
+.cards-contain {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    
+}
+
+.contain__title {
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    width: 185px;
+    height: 65px;
+}
+
+.contain__price--old {
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color11);
+    text-decoration: line-through;
+}
+
+.contain__price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rang {
+    padding-top: 7px;
+}
+
+.contain__status {
+    font-size: 10px;
+    margin-bottom: 7px;
+    color: #78A962;
+}
+.partImg{
+    width: 170px;
+}
+
+.inside__img {
+    position: absolute;
+    z-index: -1;
+}
+
+.out__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.texts-contain {
+    color: #F5F7FF;
+    text-align: center;
+
+    padding-top: 160px;
+}
+
+.out__text {
+    padding-top: 110px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 115%;
+    text-decoration-line: underline;
+}
+
+.cards-contain {
+    padding-right: 30px;
+    padding-left: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.main-list{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+margin-top: 50px;
+margin-left: 30px;
+
+}
+.main__list{
+    display: flex;
+    align-items: center;   
+}
+ul,li{
+    list-style: none;
+}
+.main-el__list{
+    top: 25px;
+    position: relative;
+    margin-left: 27px;
+    font-style: normal;
+font-weight: 600;
+font-size: 12px;
+
+color: var(--color11);
+}
+.parthers{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    column-gap: 23px;
+    align-items: center;
+}

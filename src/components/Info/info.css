@@ -1,0 +1,45 @@
+.info--cads {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 322.11px;
+    width: 225px;
+    align-items: center;
+}
+
+.card__info {
+    padding-left: 30px;
+}
+
+.info__text {
+    text-align: center;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+}
+.data{
+    font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+text-align: center;
+color: #8C8C8C;
+padding-right: 5px;
+padding-top: 5px;
+}
+.info-title{
+    padding-left: 30px;
+    padding-top: 72px;
+    font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+display: grid;
+align-items: center;
+}
+.card__info img{
+    width: 217px;
+}
